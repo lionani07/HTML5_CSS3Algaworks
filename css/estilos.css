@@ -1,0 +1,25 @@
+/*
+.missao strong{
+	color: red;
+}
+*/
+/*
+article strong{
+	color: blue;
+}
+*/
+
+/*cualquer descendente*/
+article .missao strong {
+	color: green;
+}
+
+/*Filho direto de article
+article > .importante{ 
+	color: red;
+}
+*/
+
+article > .importante > strong{ 
+	color: red;
+}
