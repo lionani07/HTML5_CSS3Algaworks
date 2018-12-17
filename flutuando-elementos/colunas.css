@@ -29,6 +29,22 @@ footer{
 	width: 48%;
 }
 
-.clearfix{
+
+article > p::first-letter{
+	font-size: 60px;
+	color: red;
+}
+
+h1::before{
+	content: "Titulo: ";
+}
+
+h1::after{
+	content: "-Artigo";
+}
+
+article::after{
+	content: "";
+	display: block;
 	clear: both;
 }
